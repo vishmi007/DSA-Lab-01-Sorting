@@ -36,7 +36,7 @@ public class objects {
             // counting the total number of lines in the file
             countLine = bufRdr.readLine();
             while (countLine != null) {
-                totLines++;
+                totLines = totLines + 1;
                 countLine = bufRdr.readLine();
             }
             fileStream.close();
